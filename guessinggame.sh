@@ -22,3 +22,4 @@ echo "Congrats, That is the right answer"
 }
 
 checkfiles
+echo Script ended 
