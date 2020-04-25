@@ -1,12 +1,12 @@
-all: readme.md
+all: README.md
 
-readme.md: guessinggame.sh
-	touch readme.md
-	echo "# Welcome. This is my Unix Workbench Assignment" > readme.md
-	echo "## Project title -> guessinggame" >> readme.md
-	echo "\n ### Date and time" >> readme.md
-	echo $$(date) >> readme.md
-	echo "\n ### Number of lines" >> readme.md
-	wc -l guessinggame.sh | egrep -o "[0-9]+" >> readme.md
+README.md: guessinggame.sh
+	touch README.md
+	echo "# Welcome. This is my Unix Workbench Assignment" > README.md
+	echo "## Project title -> guessinggame" >> README.md
+	echo "\n ### Date and time" >> README.md
+	echo $$(date) >> README.md
+	echo "\n ### Number of lines" >> README.md
+	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
 clean:
-	rm readme.md
+	rm README.md
