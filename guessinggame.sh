@@ -2,7 +2,7 @@
 # File: guessinggame.sh
 
 function checkfiles {
-filecounter=$( ls -a| wc -l)
+filecounter=$( ls -A| wc -l)
 flag=1
 echo "Hello User, guess the number of file in current directory "
 while [[ $flag -eq 1 ]]
